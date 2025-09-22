@@ -1,12 +1,28 @@
-# React + Vite
+PrimeMovies 🎬
+A modern and responsive movie discovery web application built with React, Vite, and Tailwind CSS. PrimeMovies allows users to search for movies, series, and episodes using the OMDB API, view detailed information, and maintain a personal list of favorites.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+✨ Features
+Real-time Search: Find movies, series, and episodes with a debounced search input for a smooth user experience.
 
-## Expanding the ESLint configuration
+Advanced Filtering: Filter search results by type (Movie, Series, Episode).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Pagination: Easily navigate through multiple pages of search results.
+
+Detailed Views: Click on any title to see comprehensive details including the plot, cast, ratings, and more.
+
+Favorites List: Add or remove titles from a personal favorites list.
+
+Persistent State: Your favorites list is saved in the browser's local storage, so it persists between sessions.
+
+Responsive Design: A clean, mobile-first interface that looks great on any device.
+
+🛠️ Tech Stack
+Frontend: React.js
+
+Build Tool: Vite
+
+Styling: Tailwind CSS
+
+Data Source: OMDB API
